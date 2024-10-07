@@ -1,0 +1,42 @@
+# Resumo do Passo a Passo do Código 🎶
+
+## 1. Importação de Bibliotecas 📚
+- `import javax.swing.*;` - Para criar componentes da interface gráfica (janelas, botões, rótulos).
+- `import java.awt.event.ActionEvent;` e `import java.awt.event.ActionListener;` - Para lidar com eventos de clique de botão.
+- `import java.io.File;` - Para manipular arquivos de áudio.
+- `import javax.sound.sampled.AudioInputStream;`, `import javax.sound.sampled.AudioSystem;`, e `import javax.sound.sampled.Clip;` - Para tocar arquivos de áudio no formato WAV.
+
+## 2. Definição da Classe Principal 🏗️
+- Criação da classe `BandasGUI`, que contém o código da interface gráfica.
+- Declaração da variável `nomeBanda` para armazenar o nome da banda.
+
+## 3. Método Principal 🚀
+- Define o método `main`, que é o ponto de entrada do programa.
+
+## 4. Criação da Janela 🖥️
+- `JFrame frame = new JFrame("Informações da Banda");` - Cria uma janela.
+- `frame.setSize(400, 300);` - Define o tamanho da janela.
+- `frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);` - Define o comportamento ao fechar a janela.
+- `frame.setLayout(null);` - Permite posicionar componentes manualmente.
+
+## 5. Criação do Rótulo 🏷️
+- `JLabel nomeLabel = new JLabel(nomeBanda);` - Cria um rótulo para exibir o nome da banda.
+- `nomeLabel.setBounds(150, 50, 200, 30);` - Define a posição e tamanho do rótulo.
+- `frame.add(nomeLabel);` - Adiciona o rótulo à janela.
+
+## 6. Criação do Botão 🎹
+- `JButton tocarMusicaButton = new JButton("Tocar Música Wasted");` - Cria um botão que toca a música.
+- `tocarMusicaButton.setBounds(100, 150, 200, 30);` - Define a posição e tamanho do botão.
+- `frame.add(tocarMusicaButton);` - Adiciona o botão à janela.
+
+## 7. Ação do Botão 🔊
+- `tocarMusicaButton.addActionListener(new ActionListener() {...});` - Adiciona um ouvinte de ação ao botão.
+- Dentro do `actionPerformed`, chama o método `tocarMusica` com o caminho do arquivo de áudio.
+
+## 8. Exibir a Janela 👀
+- `frame.setVisible(true);` - Define a janela como visível.
+
+## 9. Método para Tocar Música 🎵
+- `private static void tocarMusica(String caminho) {...}` - Define um método para reproduzir o áudio.
+- `File musica = new File(caminho);` - Cria um objeto `File` com o caminho do arquivo.
+- Usa `AudioInputStream` para ler o fluxo de áudio e `Clip` para reproduzir a música.
