@@ -1,4 +1,4 @@
-# 📚 Projeto de Gerenciamento de Dados
+# 📚 Classes, objetos e GUI
 
 ## Descrição
 Este projeto foi desenvolvido em Java e tem como objetivo gerenciar diferentes tipos de dados relacionados a produtos, serviços e informações relevantes. O projeto inclui classes para representar bandas, carros, cervejas, chocolates, eletrônicos, frutas, jogadores, redes sociais, streamings e times de futebol. Cada classe possui uma interface gráfica dedicada, proporcionando uma interação mais intuitiva e amigável com o usuário, com objetivos específicos para cada tipo de dado.
