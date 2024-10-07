@@ -15,7 +15,7 @@ Este projeto foi desenvolvido em Java e tem como objetivo gerenciar diferentes t
    - Métodos:
      - `mostrarInformacoes()`: Exibe informações sobre a banda.
      - `compararAno()`: Compara o ano de fundação com outras bandas.
-     - `tocarMusica()`: Reproduz uma música/hino da banda.
+     - `tocarMusica()`: Reproduz uma música da banda.
 
 ### 🚗 Classes de Carros
 2. **Carros**
