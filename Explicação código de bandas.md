@@ -1,7 +1,7 @@
 # BandasGUI
 
 ## Descrição
-O projeto **BandasGUI** é uma aplicação Java que utiliza a biblioteca Swing para criar uma interface gráfica que permite ao usuário tocar músicas de uma banda fictícia chamada **LockFist669**. O aplicativo apresenta uma lista de músicas disponíveis e um botão para tocar a música selecionada.
+O projeto **BandasGUI** é uma aplicação Java que utiliza a biblioteca Swing para criar uma interface gráfica que permite ao usuário tocar músicas da minha antiga banda, chamada **LockFist669**. O aplicativo apresenta uma lista de músicas disponíveis e um botão para tocar a música selecionada.
 
 ## Funcionalidades
 - Exibição de um GIF representando a banda.
