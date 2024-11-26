@@ -31,7 +31,6 @@ Este projeto foi desenvolvido em Java e tem como objetivo gerenciar diferentes t
 
 ## Explicando a classe "BANDAS":
 
-Descrição
 O projeto **BandasGUI** é uma aplicação Java que utiliza a biblioteca Swing para criar uma interface gráfica que permite ao usuário tocar músicas da minha antiga banda, chamada **LockFist669**. O aplicativo apresenta uma lista de músicas disponíveis e um botão para tocar a música selecionada.
 
 ## Funcionalidades
